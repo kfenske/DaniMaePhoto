@@ -1,0 +1,212 @@
+#sitename
+{
+	font-family: Agency FB;
+	font-size: 54px;
+	color: #4A030E;
+	width: 960px;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.heading
+{
+	margin-top:100px;
+}
+
+#wrapper 
+{
+	width: 100%;
+	background-color: #d6d6d6;
+	margin: 0 auto;
+	position: absolute;
+	background-size: 100% auto;
+}
+
+#header
+{
+	background-color: #7f7f7f;
+}
+
+#navigation
+{
+	margin:0;
+	padding-top: 7px;
+	height:70px;
+	z-index:30;
+	background-color:#d6d6d6;
+}
+
+#navigation li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:146px;
+	float:left;
+	font:bold 18px Corbel;
+	white-space: nowrap;
+}
+
+#navigation li a
+{
+	display:block;
+	margin:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#d6d6d6;
+	color:#4A030E;
+	text-align:center;
+	text-decoration:none;
+}
+
+#navigation a:hover
+{
+	background:#4A030E;
+	color:#d6d6d6;
+}
+
+#navigation div
+{
+	position:absolute;
+	visibility:hidden;
+	margin:0;
+	padding:0;
+	background:#d6d6d6;
+}
+
+#navigation div a
+{
+	margin:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:146px;
+	background:#d6d6d6;
+	color:#4A030E;
+	text-align:center;
+	text-decoration:none;
+}
+
+#contents
+{
+	width: 960px;
+	margin: 0pt auto;
+	text-align: center;
+	background-color: #d6d6d6;
+}
+
+#main
+{
+	clear:both;
+	background-color:#7f7f7f;
+	padding: 50px;
+}
+ 
+body
+{
+	background-color: #d6d6d6;
+	padding: 0px;
+	margin: 0px;
+}
+
+.thumb
+{
+	position:relative;
+	max-width:168px;
+	opacity: .5;
+	border:2px solid black;
+	margin-left:1px;
+}
+
+.thumb:hover
+{
+	opacity:1.0;
+	cursor:pointer;
+}
+
+.addToCart
+{
+	background-color:#4A030E;
+	color:#d6d6d6;
+	border-radius: 12px;
+	border:none;
+	font-size:.8em;
+	font-family:Corbel;
+	padding:6px;
+}
+
+#homePhoto
+{
+	border: 2px solid black;
+}
+
+#photoMenu
+{
+	width:750px;
+	margin:auto;
+	padding-left:3px;
+	padding-top:15px;
+}
+
+.printsMain
+{
+	clear:both;
+	background-color:#7f7f7f;
+	padding: 50px;
+}
+
+.printsTable
+{
+	width:860px;
+}
+
+.printsTable img
+{
+	margin-top:1px
+	margin-left:3px; 
+	max-width:300px;
+	margin-bottom: 25px
+}
+
+.projectsMain
+{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.projectsTitle
+{
+	font-family:Agency FB;
+	font-size:40px;
+	color:#4A030E;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.projectsPara
+{
+	font-family:Corbel;
+	color:#d6d6d6;
+	text-align:left;
+	padding-right:60px;
+	padding-left:60px;
+	padding-bottom:25px;
+}
+
+.imgProjectSelf
+{
+	width:200px;
+	padding:7px 20px 7px 7px;
+	margin-left:55px;
+	margin-top:15px;
+	float:left;
+}
+
+.imgProjectNW
+{
+	width:300px;
+	padding:0px 20px 7px 7px;
+	margin-left:55px;
+	margin-top:5px;
+	float:left;
+}

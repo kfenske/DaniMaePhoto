@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Dani Mae Photography</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+	<script src="Utilities.js">
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="contents">
+			<div id="header">
+				<div id="sitename"><span class="heading"><em>dani mae</em> photography</span>
+				</div>
+				<div id="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="mystory.html">My Story</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="prints.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Prints</a>
+							<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="/prints/landscapes.html">Landscapes</a>
+								<a href="/prints/portraits.html">Portraits</a>
+								<a href="/prints/objects.html">Objects</a>
+							</div>
+						</li>
+						<li><a href="exhibitions.html">Exhibitions</a></li>
+						<li><a href="cart.html">Cart</a></li>
+					</ul>
+					<div style="clear:both"></div>
+				</div>
+				<div id="main">
+					<img src="images/portrait1.JPG" style="margin-top:1px; margin-left:3px; max-width:700px;" id="homePhoto" />
+					<div id="photoMenu">
+						<img src="images/portrait1.JPG" class="thumb" onclick="photoSwap('images/portrait1.JPG')" />
+						<img src="images/portrait2.JPG" class="thumb" onclick="photoSwap('images/portrait2.JPG')" />
+						<img src="images/portrait3.JPG" class="thumb" onclick="photoSwap('images/portrait3.JPG')" />
+						<img src="images/portrait4.JPG" class="thumb" onclick="photoSwap('images/portrait4.JPG')" />
+					</div>
+				</div>
+				<div id="footer">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dani Mae Photography</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="Utilities.js">
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+	<head>
+	<body>
+		<div id="wrapper">
+			<div id="contents">
+				<div id="header">
+					<div id="sitename"><span class="heading"><em>dani mae</em> photography</span>
+					</div>
+				</div>
+				<div id="navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="mystory.html">My Story</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="prints.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Prints</a>
+							<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="/prints/landscapes.html">Landscapes</a>
+								<a href="/prints/portraits.html">Portraits</a>
+								<a href="/prints/objects.html">Objects</a>
+							</div>
+						</li>
+						<li><a href="exhibitions.html">Exhibitions</a></li>
+						<li><a href="cart.html">Cart</a></li>
+					</ul>
+				</div>
+				<div class="printsMain">
+					<table class="printsTable">
+						<tr>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait1')" />
+							</td>
+							<td><img src="images/portrait1.JPG" class="portrait1" />
+							</td>
+							<td><img src="images/portrait2.JPG" class="portrait2" />
+							</td>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait2')" />
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait3')" />
+							</td>
+							<td><img src="images/portrait3.JPG" class="portrait3" />
+							</td>
+							<td><img src="images/portrait4.JPG" class="portrait4" />
+							</td>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait4')" />
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait5')" />
+							</td>
+							<td><img src="images/portrait5.JPG" class="portrait5" />
+							</td>
+							<td><img src="images/portrait6.JPG" class="portrait6" />
+							</td>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait6')" />
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait7')" />
+							</td>
+							<td><img src="images/portrait7.JPG" class="portrait7" />
+							</td>
+							<td><img src="images/portrait8.JPG" class="portrait8" />
+							</td>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait8')" />
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait9')" />
+							</td>
+							<td><img src="images/portrait9.JPG" class="portrait9" />
+							</td>
+							<td><img src="images/portrait10.JPG" class="portrait10" />
+							</td>
+							<td><input type="button" class="addToCart" value="Add To Cart" onclick="btnTransaction('portrait10')" />
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div id="footer">
+				</div>
+			</div>
+		</div>
+		<script>
+		</script>
+	</body>
+</html>
